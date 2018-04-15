@@ -32,9 +32,11 @@
 
 ## Smart Switch
 > **스마트 스위치 구상도**
+>
 > ![bluethings_switch1](/image/bluethings_switch1.png "bluethings_switch1")
 
 > **실제 제작 결과**
+>
 > ![bluethings_switch2](/image/bluethings_switch2.png "bluethings_switch2")
 
 **적용 설명**
@@ -47,6 +49,7 @@
 > ![bluethings_plug2](/image/bluethings_plug2.png "bluethings_plug2")
 
 > **실제 제작 결과**
+>
 > ![bluethings_plug1](/image/bluethings_plug1.png "bluethings_plug1")
 
 **적용 설명**
@@ -57,6 +60,7 @@
 
 ## Web UI
 > **Web UI 적용 결과**
+>
 > ![bluethings_webUI](/image/bluethings_webUI.png "bluethings_webUI")
 
 `pom.xml` 를 기반으로 Maven Dependency를 구성하여 Update Maven은 필수입니다. 이는 Raspberry PI에서 작동할 수 있도록 저용량으로 구상을 하였습니다. 공공데이터에 대해 실시간으로 받아오기 위해서는 **Wi-Fi** 환경으로 설정이 되어 있어야 합니다.
@@ -103,9 +107,11 @@ Maven `pom.xml`
 
 ## Mobile Application
 > **Mobile Application 구상도**
+>
 > ![bluethings_mobile2](/image/bluethings_mobile2.png "bluethings_mobile2")
 
 > **Mobile Application 적용 결과**
+> 
 > ![bluethings_mobile1](/image/bluethings_mobile1.png "bluethings_mobile1")
 
 **적용 설명**
@@ -115,6 +121,7 @@ Maven `pom.xml`
 
 ## Conenctor UI
 > **Connector UI 구상도 및 적용**
+>
 > ![bluethings_connectorUI](/image/bluethings_connectorUI.png "bluethings_connectorUI")
 
 **적용 설명**
@@ -122,6 +129,12 @@ Maven `pom.xml`
 - Raspberry Pi Monitor에서 탑재한 터치 스크린 기능
 을 활용해서 남녀노소가 쉽게 Smart Kit 들을 제어할 수
 있도록 제작하였습니다.
+
+## Reference Documents
+- [사물인터넷 캡스톤 디자인 과제 결과 보고서](https://github.com/tails5555/IoT_Bluethings/blob/master/docs/BlueThings%20%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC%EC%A0%9C%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
+- [BlueThings 사용 설명서](https://github.com/tails5555/IoT_Bluethings/blob/master/docs/Bluethings_Operation_Menual.pdf)
+- [사물인터넷 캡스톤 디자인 최종 발표](https://github.com/tails5555/IoT_Bluethings/blob/master/docs/Bluethings_%EC%82%AC%EB%AC%BC%EC%9D%B8%ED%84%B0%EB%84%B7_%EC%B5%9C%EC%A2%85_PPT.pdf)
+- [사물인터넷 최종 결과 보고서 및 제안서](https://github.com/tails5555/IoT_Bluethings/blob/master/docs/Bluethings_%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%99%88%ED%97%88%EB%B8%8C_%EC%B5%9C%EC%A2%85%EA%B2%B0%EA%B3%BC_%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
 
 ## Awards
 1. 사물인터넷 캡스톤 디자인 과목 **전원 A+**
