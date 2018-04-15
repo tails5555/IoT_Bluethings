@@ -1,0 +1,5 @@
+﻿- 톰켓 서비스 시작
+sudo service tomcat8 start
+- 블루투스 바인딩
+sudo rfcomm bind rfcomm1 98:D3:33:80:B5:6B
+sudo rfcomm bind rfcomm2 98:D3:31:FB:88:82
